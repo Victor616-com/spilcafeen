@@ -1,0 +1,29 @@
+.wrapper {
+    max-width: 700px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.wrapper img {
+    width: 300px;
+    border-radius: 10px;
+    
+}
+.postInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    gap: 20px
+}
+.postInfo h3{
+    font-size: 16px;
+    font-weight: 400;
+}

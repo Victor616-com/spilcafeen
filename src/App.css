@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+  --bg: #EBEEF2;
+  --green: #b12924;
+  --light-green: #ffffff;
+  --light-grey: #f7f2ee;
+  --text-color-light: #F7F2EE;
+  --text-color-dark: #292929;
+  --text-color-danger: rgb(152, 58, 58);
+  --white: #FFFFFF;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg);
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.page{
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.search-filter-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.search-filter-container select {
+  border: solid 1px #E4E4E4;
+  background-color: #FAFAFA;
+  padding: 10px;
+  border-radius: 10px;
+  width: 150px;
+  font-size: 16px;
+}
+
+.search-filter-container input{
+  background-color: #FAFAFA;
+  border: solid 1px #E4E4E4;
+  width: 400px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+
+.flex-container {
+
+  width: calc(100% - 100px);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.update-title {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  width: 700px;
+  text-align: center;
+}
+
+.deleteBtn {
+
+  padding: 10px;
+  font-size: 16px;
+  background-color: #292929;
+  color: #FAFAFA;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
